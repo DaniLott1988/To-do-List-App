@@ -15,12 +15,20 @@
 
     </header>
     <main>
-      <ul class="">
-      </ul>
-      <div id= > </div>
+      <div class="container">
+		      <h2>A Task List App</h2>
+		      <p><em> Double click to mark an item off, click on "X" to delete an item, and drag items to reorder.</em></p>
+
+		      <form name="toDoList">
+			         <input type="text" name="ListItem" id="input"/>
+		      </form>
+
+		      <div onclick="newItem()" id="button">Add</div>
+		      <br/>
+		      <ol id="list"></ol>
+      </div>
     </main>
     <script src="js/jquery-3.6.0.min.js"> </script>
-    <script src="js/promise-polyfill.js"> </script>
     <script src="js/script.js"> </script>
   </body>
 </html>
